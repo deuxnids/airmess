@@ -1,0 +1,19 @@
+airmess_disp_homepage:
+    pattern:  /disp
+    defaults: { _controller: airmessDispBundle:Default:index }
+
+    
+airmess_led:
+    pattern:  /led
+    defaults: { _controller: airmessDispBundle:Default:led }
+
+
+airmess_scriptLED:
+    pattern:  /scriptLED
+    defaults: { _controller: airmessDispBundle:Default:scriptLED }   
+    
+
+airmess_scriptStatus:
+    pattern:  /scriptStatus 
+    defaults: { _controller: airmessDispBundle:Default:scriptStatus }   
+    

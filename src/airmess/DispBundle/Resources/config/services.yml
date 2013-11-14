@@ -1,0 +1,10 @@
+parameters:
+#    airmess_disp.example.class: airmess\DispBundle\Example
+
+services:
+#    airmess_disp.example:
+#        class: %airmess_disp.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+    airmess.led:
+        class: airmess\DispBundle\Classes\Led

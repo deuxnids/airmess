@@ -1,0 +1,4 @@
+airmess_disp:
+    resource: "@airmessDispBundle/Resources/config/routing.yml"
+    prefix:   /
+

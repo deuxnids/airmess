@@ -1,0 +1,77 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
+    
+    <title>Airmess</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href={{ asset('dist/css/bootstrap.css') }} rel="stylesheet">
+    <link href={{ asset('dist/css/ssvt.css') }} rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href={{ asset('dist/css/carousel.css') }} rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== --> 
+  <body>
+    <div class="navbar-wrapper">
+<div class="container">
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Airmess</a>
+            </div>
+            <div class="navbar-collapse collapse">
+         
+
+              
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+  
+      <div class="container">
+   
+   
+          {% block body %}
+          {% endblock %}
+          
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2013 </p>
+      </footer>
+  </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+       <script type="text/javascript" src="{{ asset('js/jquery-1.10.1.min.js') }}"></script> 
+       <script type="text/javascript" src="{{ asset('js/holder.js') }}"></script>
+       {% block js %}
+       
+       {% endblock %}
+        
+  </body>
+</html>
+ 

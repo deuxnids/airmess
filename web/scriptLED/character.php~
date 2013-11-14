@@ -1,0 +1,15 @@
+<?
+
+class Font{	
+
+	public function __construct( ) {
+	
+   }
+	
+	public function getA(){
+		$vertex = [];
+		return 
+	}
+
+}
+?>

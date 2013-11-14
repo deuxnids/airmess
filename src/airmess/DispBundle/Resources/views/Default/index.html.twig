@@ -1,0 +1,27 @@
+{% extends '::layout.html.twig' %}
+
+{% block body %}
+
+<table class="table">
+   <thead>
+          <tr>sdfs
+          </tr>
+        </thead>
+        <tbody>
+            {% for message in messages %}
+          <tr>
+          <td >{{ message.message }}</td>
+          </tr>
+    {% endfor %}
+        </tbody>
+</table>
+
+
+
+
+{% endblock %}
+
+       {% block js %}
+                    <script type="text/javascript" src="{{ asset('js/airmess.js') }}"></script>
+       
+       {% endblock %}
